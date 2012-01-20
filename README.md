@@ -1,7 +1,6 @@
 XML
 ----
-
-'
+```
 Class koo.Book Extends %Persistent
 {
 
@@ -34,4 +33,4 @@ ClassMethod Test()
 Projection Java As %Projection.Java(ROOTDIR = "koo/src");
 
 }
-'
+```

@@ -1,18 +1,18 @@
-package koorong;
+package koo;
 
 
 /**
- * Cache' Java Class Generated for class koorong.Book on version Cache for UNIX (Apple Mac OS X for x86-64) 2012.1 (Build 531) Mon Dec 5 2011 17:35:19 EST.<br>
+ * Cache' Java Class Generated for class koo.Book on version Cache for UNIX (Apple Mac OS X for x86-64) 2012.1 (Build 531) Mon Dec 5 2011 17:35:19 EST.<br>
  *
- * @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book</A>
+ * @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book</A>
 **/
 
 public class Book extends com.intersys.classes.Persistent {
-    private static final long serialVersionUID = 5112;
-    private static String CACHE_CLASS_NAME = "koorong.Book";
+    private static final long serialVersionUID = 3921;
+    private static String CACHE_CLASS_NAME = "koo.Book";
     /**
            <p>NB: DO NOT USE IN APPLICATION(!!!).
-           <br>Use <code>koorong.Book.open</code> instead!</br></p>
+           <br>Use <code>koo.Book.open</code> instead!</br></p>
            <p>
            Used to construct a Java object, corresponding to existing object
            in Cache database.
@@ -27,9 +27,9 @@ public class Book extends com.intersys.classes.Persistent {
         super (((com.intersys.cache.SysDatabase)db).newCacheObject (CACHE_CLASS_NAME,initstr));
     }
     /**
-       Creates a new instance of object "koorong.Book" in Cache
+       Creates a new instance of object "koo.Book" in Cache
        database and corresponding object of class
-       <code>koorong.Book</code>.
+       <code>koo.Book</code>.
 
        @param db <code>Database</code> object used for connection with
        Cache database.
@@ -47,7 +47,7 @@ public class Book extends com.intersys.classes.Persistent {
     * {@link com.intersys.objects.Database#createObjects(String, java.util.Collection)}
     * to save a collection of previously created new objects in Cache
     * Database. No object in collection could been saved before. All
-    * objects must be instances of <code>koorong.Book</code> and not of its
+    * objects must be instances of <code>koo.Book</code> and not of its
     * subclasses. To save changes in objects that already exist in
     * the database use <code>saveObjects</code> method or instance
     * method <code>save</code> on the object itself.
@@ -68,11 +68,11 @@ public class Book extends com.intersys.classes.Persistent {
     /**
        Runs method <code> %OpenId </code> in Cache to open an object
        from Cache database and creates corresponding object of class
-       <code>koorong.Book</code>.
+       <code>koo.Book</code>.
 
        @return <code> RegisteredObject </code>, corresponding to opened
-       object. This object may be of <code>koorong.Book</code> or of
-      any of its subclasses. Cast to <code>koorong.Book</code> is
+       object. This object may be of <code>koo.Book</code> or of
+      any of its subclasses. Cast to <code>koo.Book</code> is
       guaranteed to pass without <code>ClassCastException</code> exception.
 
        @param db <code>Database</code> object used for connection with
@@ -93,11 +93,11 @@ public class Book extends com.intersys.classes.Persistent {
     /**
        Runs method <code> %OpenId </code> in Cache to open an object
        from Cache database and creates corresponding object of class
-       <code>koorong.Book</code>.
+       <code>koo.Book</code>.
 
        @return <code> RegisteredObject </code>, corresponding to opened
-       object. This object may be of <code>koorong.Book</code> or of
-      any of its subclasses. Cast to <code>koorong.Book</code> is
+       object. This object may be of <code>koo.Book</code> or of
+      any of its subclasses. Cast to <code>koo.Book</code> is
       guaranteed to pass without <code>ClassCastException</code> exception.
 
        @param db <code>Database</code> object used for connection with
@@ -119,11 +119,11 @@ public class Book extends com.intersys.classes.Persistent {
     /**
        Runs method <code> %OpenId </code> in Cache to open an object
        from Cache database and creates corresponding object of class
-       <code>koorong.Book</code>.
+       <code>koo.Book</code>.
 
        @return <code> RegisteredObject </code>, corresponding to opened
-       object. This object may be of <code>koorong.Book</code> or of
-      any of its subclasses. Cast to <code>koorong.Book</code> is
+       object. This object may be of <code>koo.Book</code> or of
+      any of its subclasses. Cast to <code>koo.Book</code> is
       guaranteed to pass without <code>ClassCastException</code> exception.
 
        @param db <code>Database</code> object used for connection with
@@ -160,11 +160,11 @@ public class Book extends com.intersys.classes.Persistent {
     /**
        Runs method <code> %OpenId </code> in Cache to open an object
        from Cache database and creates corresponding object of class
-       <code>koorong.Book</code>.
+       <code>koo.Book</code>.
 
        @return <code> RegisteredObject </code>, corresponding to opened
-       object. This object may be of <code>koorong.Book</code> or of
-      any of its subclasses. Cast to <code>koorong.Book</code> is
+       object. This object may be of <code>koo.Book</code> or of
+      any of its subclasses. Cast to <code>koo.Book</code> is
       guaranteed to pass without <code>ClassCastException</code> exception.
 
        @param db <code>Database</code> object used for connection with
@@ -202,11 +202,11 @@ public class Book extends com.intersys.classes.Persistent {
     /**
        Runs method <code> %Open </code> in Cache to open an object
        from Cache database and creates corresponding object of class
-       <code>koorong.Book</code>.
+       <code>koo.Book</code>.
 
        @return <code> RegisteredObject </code>, corresponding to opened
-       object. This object may be of <code>koorong.Book</code> or of
-      any of its subclasses. Cast to <code>koorong.Book</code> is
+       object. This object may be of <code>koo.Book</code> or of
+      any of its subclasses. Cast to <code>koo.Book</code> is
       guaranteed to pass without <code>ClassCastException</code> exception.
 
        @param db <code>Database</code> object used for connection with
@@ -227,11 +227,11 @@ public class Book extends com.intersys.classes.Persistent {
     /**
        Runs method <code> %Open </code> in Cache to open an object
        from Cache database and creates corresponding object of class
-       <code>koorong.Book</code>.
+       <code>koo.Book</code>.
 
        @return <code> RegisteredObject </code>, corresponding to opened
-       object. This object may be of <code>koorong.Book</code> or of
-      any of its subclasses. Cast to <code>koorong.Book</code> is
+       object. This object may be of <code>koo.Book</code> or of
+      any of its subclasses. Cast to <code>koo.Book</code> is
       guaranteed to pass without <code>ClassCastException</code> exception.
 
        @param db <code>Database</code> object used for connection with
@@ -253,11 +253,11 @@ public class Book extends com.intersys.classes.Persistent {
     /**
        Runs method <code> %Open </code> in Cache to open an object
        from Cache database and creates corresponding object of class
-       <code>koorong.Book</code>.
+       <code>koo.Book</code>.
 
        @return <code> RegisteredObject </code>, corresponding to opened
-       object. This object may be of <code>koorong.Book</code> or of
-      any of its subclasses. Cast to <code>koorong.Book</code> is
+       object. This object may be of <code>koo.Book</code> or of
+      any of its subclasses. Cast to <code>koo.Book</code> is
       guaranteed to pass without <code>ClassCastException</code> exception.
 
        @param db <code>Database</code> object used for connection with
@@ -293,11 +293,11 @@ public class Book extends com.intersys.classes.Persistent {
     /**
        Runs method <code> %Open </code> in Cache to open an object
        from Cache database and creates corresponding object of class
-       <code>koorong.Book</code>.
+       <code>koo.Book</code>.
 
        @return <code> RegisteredObject </code>, corresponding to opened
-       object. This object may be of <code>koorong.Book</code> or of
-      any of its subclasses. Cast to <code>koorong.Book</code> is
+       object. This object may be of <code>koo.Book</code> or of
+      any of its subclasses. Cast to <code>koo.Book</code> is
       guaranteed to pass without <code>ClassCastException</code> exception.
 
        @param db <code>Database</code> object used for connection with
@@ -334,7 +334,7 @@ public class Book extends com.intersys.classes.Persistent {
     /**
     * Calls method
     * {@link com.intersys.objects.Database#openByQuery(String, String, Object[])}
-    * to open all instances of class koorong.Book
+    * to open all instances of class koo.Book
     * that satisfy given simple
     * condition, specified in SQL syntax.
     *
@@ -396,7 +396,7 @@ public class Book extends com.intersys.classes.Persistent {
     * to save a collection of previously created new objects in Cache
     * Database. All object in
     * collection must already exist in database. All
-    * objects must be instances of <code>koorong.Book</code> and not of its
+    * objects must be instances of <code>koo.Book</code> and not of its
     * subclasses. To save
     * changes in newly created objects use <code>createObjects</code>
     * method or instance method <code>save</code> on the object
@@ -568,7 +568,7 @@ public class Book extends com.intersys.classes.Persistent {
         return new Boolean(exists(db, id));
     }
     /**
-       Returns class name of the class koorong.Book as it is in
+       Returns class name of the class koo.Book as it is in
       Cache Database. Note, that this is a static method, so no
       object specific information can be returned. Use
       <code>getCacheClass().getName()</code> to get the class name
@@ -599,8 +599,8 @@ public class Book extends com.intersys.classes.Persistent {
        Runs method <code> %Exists </code> in Cache to see if an object exists.
 
        @return <code> RegisteredObject </code>, corresponding to opened
-       object. This object may be of <code>koorong.Book</code> or of
-      any of its subclasses. Cast to <code>koorong.Book</code> is
+       object. This object may be of <code>koo.Book</code> or of
+      any of its subclasses. Cast to <code>koo.Book</code> is
       guaranteed to pass without <code>ClassCastException</code> exception.
 
        @param db <code>Database</code> object used for connection with
@@ -645,28 +645,28 @@ public class Book extends com.intersys.classes.Persistent {
        Returns value of property <code>Tags</code>.
        <Description>
        @return current value of <code>Tags</code> represented as
-       <code>com.intersys.classes.ListOfDataTypes</code>
+       <code>java.util.List</code>
 
        @throws com.intersys.objects.CacheException if any error occurred during value retrieval.
-       @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#Tags"> Tags</A>
+       @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#Tags"> Tags</A>
     */
-    public com.intersys.classes.ListOfDataTypes getTags()  throws com.intersys.objects.CacheException {
+    public java.util.List getTags()  throws com.intersys.objects.CacheException {
        com.intersys.cache.Dataholder dh = mInternal.getProperty("Tags",true);
         com.intersys.cache.CacheObject cobj = dh.getCacheObject();
         if (cobj == null)
             return null;
-        return (com.intersys.classes.ListOfDataTypes)(cobj.newJavaInstance());
+        return (java.util.List)(cobj.newJavaInstance());
     }
 
     /**
        Sets new value for <code>Tags</code>.
        <Description>
        @param value new value to be set represented as
-       <code>com.intersys.classes.ListOfDataTypes</code>.
+       <code>java.util.List</code>.
        @throws com.intersys.objects.CacheException if any error occurred during value setting.
-       @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#Tags"> Tags</A>
+       @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#Tags"> Tags</A>
     */
-    public void setTags(com.intersys.classes.ListOfDataTypes value)  throws com.intersys.objects.CacheException {
+    public void setTags(java.util.List value)  throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder dh = new com.intersys.cache.Dataholder (value);
         mInternal.setProperty("Tags", dh);
         return;
@@ -682,7 +682,7 @@ with the pre-package behaviour of %ClassName.</p>
      @param db represented as com.intersys.objects.Database
      @param fullname represented as java.lang.Boolean
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%ClassName"> Method %ClassName</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%ClassName"> Method %ClassName</A>
     */
     public static java.lang.String sys_ClassName (com.intersys.objects.Database db, java.lang.Boolean fullname) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -701,7 +701,7 @@ with the pre-package behaviour of %ClassName.</p>
      @param db represented as com.intersys.objects.Database
      @param id represented as java.lang.String
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%ComposeOid"> Method %ComposeOid</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%ComposeOid"> Method %ComposeOid</A>
     */
     public static void sys_ComposeOid (com.intersys.objects.Database db, java.lang.String id) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -727,7 +727,7 @@ transaction is committed, otherwise it is rolled back. </p>
      default argument concurrency set to -1
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #sys_Delete(com.intersys.objects.Database,com.intersys.objects.Oid,java.lang.Integer)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%Delete"> Method %Delete</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%Delete"> Method %Delete</A>
     */
     public static void sys_Delete (com.intersys.objects.Database db) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[0];
@@ -753,7 +753,7 @@ transaction is committed, otherwise it is rolled back. </p>
      default argument concurrency set to -1
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #sys_Delete(com.intersys.objects.Database,com.intersys.objects.Oid,java.lang.Integer)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%Delete"> Method %Delete</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%Delete"> Method %Delete</A>
     */
     public static void sys_Delete (com.intersys.objects.Database db, com.intersys.objects.Oid oid) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -779,7 +779,7 @@ transaction is committed, otherwise it is rolled back. </p>
      @param oid represented as com.intersys.objects.Oid
      @param concurrency represented as java.lang.Integer
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%Delete"> Method %Delete</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%Delete"> Method %Delete</A>
     */
     public static void sys_Delete (com.intersys.objects.Database db, com.intersys.objects.Oid oid, java.lang.Integer concurrency) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[2];
@@ -817,7 +817,7 @@ even when pInitializeExtent is true.
      default argument pInitializeExtent set to 1
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #sys_DeleteExtent(com.intersys.objects.Database,java.lang.Integer,com.intersys.objects.StringHolder,com.intersys.objects.StringHolder,java.lang.Integer)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%DeleteExtent"> Method %DeleteExtent</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%DeleteExtent"> Method %DeleteExtent</A>
     */
     public static void sys_DeleteExtent (com.intersys.objects.Database db, java.lang.Integer concurrency, com.intersys.objects.StringHolder deletecount, com.intersys.objects.StringHolder instancecount) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[3];
@@ -860,7 +860,7 @@ even when pInitializeExtent is true.
      @param instancecount represented as com.intersys.objects.StringHolder
      @param pInitializeExtent represented as java.lang.Integer
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%DeleteExtent"> Method %DeleteExtent</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%DeleteExtent"> Method %DeleteExtent</A>
     */
     public static void sys_DeleteExtent (com.intersys.objects.Database db, java.lang.Integer concurrency, com.intersys.objects.StringHolder deletecount, com.intersys.objects.StringHolder instancecount, java.lang.Integer pInitializeExtent) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[4];
@@ -891,7 +891,7 @@ on the optional <var>concurrency</var> argument.</p>
      default argument concurrency set to -1
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #sys_DeleteId(com.intersys.objects.Database,java.lang.String,java.lang.Integer)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%DeleteId"> Method %DeleteId</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%DeleteId"> Method %DeleteId</A>
     */
     public static void sys_DeleteId (com.intersys.objects.Database db, java.lang.String id) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -913,7 +913,7 @@ on the optional <var>concurrency</var> argument.</p>
      @param id represented as java.lang.String
      @param concurrency represented as java.lang.Integer
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%DeleteId"> Method %DeleteId</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%DeleteId"> Method %DeleteId</A>
     */
     public static void sys_DeleteId (com.intersys.objects.Database db, java.lang.String id, java.lang.Integer concurrency) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[2];
@@ -931,7 +931,7 @@ on the optional <var>concurrency</var> argument.</p>
      default argument oid set to ""
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #sys_Exists(com.intersys.objects.Database,com.intersys.objects.Oid)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%Exists"> Method %Exists</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%Exists"> Method %Exists</A>
     */
     public static java.lang.Boolean sys_Exists (com.intersys.objects.Database db) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[0];
@@ -945,7 +945,7 @@ on the optional <var>concurrency</var> argument.</p>
      @param db represented as com.intersys.objects.Database
      @param oid represented as com.intersys.objects.Oid
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%Exists"> Method %Exists</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%Exists"> Method %Exists</A>
     */
     public static java.lang.Boolean sys_Exists (com.intersys.objects.Database db, com.intersys.objects.Oid oid) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -960,7 +960,7 @@ on the optional <var>concurrency</var> argument.</p>
      @param db represented as com.intersys.objects.Database
      @param id represented as java.lang.String
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%ExistsId"> Method %ExistsId</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%ExistsId"> Method %ExistsId</A>
     */
     public static java.lang.Boolean sys_ExistsId (com.intersys.objects.Database db, java.lang.String id) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -975,7 +975,7 @@ That is 'isclass' is a primary superclass of this object.</p>
      @param db represented as com.intersys.objects.Database
      @param isclass represented as java.lang.String
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%IsA"> Method %IsA</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%IsA"> Method %IsA</A>
     */
     public static java.lang.Integer sys_IsA (com.intersys.objects.Database db, java.lang.String isclass) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -995,7 +995,7 @@ This method is not meant for production applications. It is meant to be a develo
 extent physical data.</p>
      @param db represented as com.intersys.objects.Database
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%KillExtent"> Method %KillExtent</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%KillExtent"> Method %KillExtent</A>
     */
     public static void sys_KillExtent (com.intersys.objects.Database db) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[0];
@@ -1021,7 +1021,7 @@ after the index filing is completed.
      default argument lockExtent set to 0
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #sys_SaveIndices(com.intersys.objects.Database,java.lang.String,java.lang.String,java.lang.Boolean)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%SaveIndices"> Method %SaveIndices</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%SaveIndices"> Method %SaveIndices</A>
     */
     public static void sys_SaveIndices (com.intersys.objects.Database db) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[0];
@@ -1047,7 +1047,7 @@ after the index filing is completed.
      default argument lockExtent set to 0
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #sys_SaveIndices(com.intersys.objects.Database,java.lang.String,java.lang.String,java.lang.Boolean)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%SaveIndices"> Method %SaveIndices</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%SaveIndices"> Method %SaveIndices</A>
     */
     public static void sys_SaveIndices (com.intersys.objects.Database db, java.lang.String pStartId) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -1074,7 +1074,7 @@ after the index filing is completed.
      default argument lockExtent set to 0
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #sys_SaveIndices(com.intersys.objects.Database,java.lang.String,java.lang.String,java.lang.Boolean)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%SaveIndices"> Method %SaveIndices</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%SaveIndices"> Method %SaveIndices</A>
     */
     public static void sys_SaveIndices (com.intersys.objects.Database db, java.lang.String pStartId, java.lang.String pEndId) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[2];
@@ -1101,7 +1101,7 @@ after the index filing is completed.
      @param pEndId represented as java.lang.String
      @param lockExtent represented as java.lang.Boolean
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#%SaveIndices"> Method %SaveIndices</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#%SaveIndices"> Method %SaveIndices</A>
     */
     public static void sys_SaveIndices (com.intersys.objects.Database db, java.lang.String pStartId, java.lang.String pEndId, java.lang.Boolean lockExtent) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[3];
@@ -1117,7 +1117,7 @@ after the index filing is completed.
      @param db represented as com.intersys.objects.Database
      @param tags represented as java.util.List
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#CreateBook"> Method CreateBook</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#CreateBook"> Method CreateBook</A>
     */
     public static void CreateBook (com.intersys.objects.Database db, java.util.List tags) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -1132,7 +1132,7 @@ after the index filing is completed.
      default argument concurrency set to -1
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #IDKEYDelete(com.intersys.objects.Database,java.lang.String,java.lang.Integer)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#IDKEYDelete"> Method IDKEYDelete</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#IDKEYDelete"> Method IDKEYDelete</A>
     */
     public static void IDKEYDelete (com.intersys.objects.Database db, java.lang.String K1) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -1147,7 +1147,7 @@ after the index filing is completed.
      @param K1 represented as java.lang.String
      @param concurrency represented as java.lang.Integer
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#IDKEYDelete"> Method IDKEYDelete</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#IDKEYDelete"> Method IDKEYDelete</A>
     */
     public static void IDKEYDelete (com.intersys.objects.Database db, java.lang.String K1, java.lang.Integer concurrency) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[2];
@@ -1164,7 +1164,7 @@ after the index filing is completed.
      default argument id set to ""
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #IDKEYExists(com.intersys.objects.Database,java.lang.String,com.intersys.objects.StringHolder)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#IDKEYExists"> Method IDKEYExists</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#IDKEYExists"> Method IDKEYExists</A>
     */
     public static java.lang.Boolean IDKEYExists (com.intersys.objects.Database db, java.lang.String K1) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -1178,7 +1178,7 @@ after the index filing is completed.
      @param K1 represented as java.lang.String
      @param id represented as com.intersys.objects.StringHolder
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#IDKEYExists"> Method IDKEYExists</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#IDKEYExists"> Method IDKEYExists</A>
     */
     public static java.lang.Boolean IDKEYExists (com.intersys.objects.Database db, java.lang.String K1, com.intersys.objects.StringHolder id) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[2];
@@ -1198,16 +1198,16 @@ after the index filing is completed.
      default argument sc set to $$$OK
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #IDKEYOpen(com.intersys.objects.Database,java.lang.String,java.lang.Integer,com.intersys.objects.StatusCodeHolder)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#IDKEYOpen"> Method IDKEYOpen</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#IDKEYOpen"> Method IDKEYOpen</A>
     */
-    public static koorong.Book IDKEYOpen (com.intersys.objects.Database db, java.lang.String K1) throws com.intersys.objects.CacheException {
+    public static koo.Book IDKEYOpen (com.intersys.objects.Database db, java.lang.String K1) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
         args[0] = new com.intersys.cache.Dataholder(K1);
         com.intersys.cache.Dataholder res=db.runClassMethod(CACHE_CLASS_NAME,"IDKEYOpen",args,com.intersys.objects.Database.RET_OBJECT);
         com.intersys.cache.CacheObject cobj = res.getCacheObject();
         if (cobj == null)
             return null;
-        return (koorong.Book)(cobj.newJavaInstance());
+        return (koo.Book)(cobj.newJavaInstance());
     }
     /**
      <p>Runs method IDKEYOpen in Cache.</p>
@@ -1217,9 +1217,9 @@ after the index filing is completed.
      default argument sc set to $$$OK
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #IDKEYOpen(com.intersys.objects.Database,java.lang.String,java.lang.Integer,com.intersys.objects.StatusCodeHolder)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#IDKEYOpen"> Method IDKEYOpen</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#IDKEYOpen"> Method IDKEYOpen</A>
     */
-    public static koorong.Book IDKEYOpen (com.intersys.objects.Database db, java.lang.String K1, java.lang.Integer concurrency) throws com.intersys.objects.CacheException {
+    public static koo.Book IDKEYOpen (com.intersys.objects.Database db, java.lang.String K1, java.lang.Integer concurrency) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[2];
         args[0] = new com.intersys.cache.Dataholder(K1);
         args[1] = new com.intersys.cache.Dataholder(concurrency);
@@ -1227,7 +1227,7 @@ after the index filing is completed.
         com.intersys.cache.CacheObject cobj = res.getCacheObject();
         if (cobj == null)
             return null;
-        return (koorong.Book)(cobj.newJavaInstance());
+        return (koo.Book)(cobj.newJavaInstance());
     }
     /**
      <p>Runs method IDKEYOpen in Cache.</p>
@@ -1236,9 +1236,9 @@ after the index filing is completed.
      @param concurrency represented as java.lang.Integer
      @param sc represented as com.intersys.objects.StatusCodeHolder
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#IDKEYOpen"> Method IDKEYOpen</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#IDKEYOpen"> Method IDKEYOpen</A>
     */
-    public static koorong.Book IDKEYOpen (com.intersys.objects.Database db, java.lang.String K1, java.lang.Integer concurrency, com.intersys.objects.StatusCodeHolder sc) throws com.intersys.objects.CacheException {
+    public static koo.Book IDKEYOpen (com.intersys.objects.Database db, java.lang.String K1, java.lang.Integer concurrency, com.intersys.objects.StatusCodeHolder sc) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[3];
         int[] _refs = new int[1];
         args[0] = new com.intersys.cache.Dataholder(K1);
@@ -1250,14 +1250,14 @@ after the index filing is completed.
         com.intersys.cache.CacheObject cobj = res[0].getCacheObject();
         if (cobj == null)
             return null;
-        return (koorong.Book)(cobj.newJavaInstance());
+        return (koo.Book)(cobj.newJavaInstance());
     }
     /**
      <p>Runs method TagsGetObject in Cache.</p>
      default argument force set to 0
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #TagsGetObject(java.lang.Integer)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#TagsGetObject"> Method TagsGetObject</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#TagsGetObject"> Method TagsGetObject</A>
     */
     public com.intersys.objects.Oid TagsGetObject () throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[0];
@@ -1268,7 +1268,7 @@ after the index filing is completed.
      <p>Runs method TagsGetObject in Cache.</p>
      @param force represented as java.lang.Integer
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#TagsGetObject"> Method TagsGetObject</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#TagsGetObject"> Method TagsGetObject</A>
     */
     public com.intersys.objects.Oid TagsGetObject (java.lang.Integer force) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -1281,7 +1281,7 @@ after the index filing is completed.
      default argument force set to 0
      @throws com.intersys.objects.CacheException if any error occured while running the method.
      @see #TagsGetObjectId(java.lang.Integer)
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#TagsGetObjectId"> Method TagsGetObjectId</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#TagsGetObjectId"> Method TagsGetObjectId</A>
     */
     public java.lang.String TagsGetObjectId () throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[0];
@@ -1292,7 +1292,7 @@ after the index filing is completed.
      <p>Runs method TagsGetObjectId in Cache.</p>
      @param force represented as java.lang.Integer
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#TagsGetObjectId"> Method TagsGetObjectId</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#TagsGetObjectId"> Method TagsGetObjectId</A>
     */
     public java.lang.String TagsGetObjectId (java.lang.Integer force) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -1305,7 +1305,7 @@ after the index filing is completed.
      @param db represented as com.intersys.objects.Database
      @param value represented as java.lang.String
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#TagsIsValid"> Method TagsIsValid</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#TagsIsValid"> Method TagsIsValid</A>
     */
     public static void TagsIsValid (com.intersys.objects.Database db, java.lang.String value) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -1318,7 +1318,7 @@ after the index filing is completed.
      <p>Runs method TagsSetObject in Cache.</p>
      @param newvalue represented as com.intersys.objects.Oid
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#TagsSetObject"> Method TagsSetObject</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#TagsSetObject"> Method TagsSetObject</A>
     */
     public void TagsSetObject (com.intersys.objects.Oid newvalue) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -1331,7 +1331,7 @@ after the index filing is completed.
      <p>Runs method TagsSetObjectId in Cache.</p>
      @param newid represented as java.lang.String
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#TagsSetObjectId"> Method TagsSetObjectId</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#TagsSetObjectId"> Method TagsSetObjectId</A>
     */
     public void TagsSetObjectId (java.lang.String newid) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[1];
@@ -1342,9 +1342,10 @@ after the index filing is completed.
     }
     /**
      <p>Runs method Test in Cache.</p>
+     <p>Description: Test the CreateBook method: yes, I am too lazy to put this in a separate test case</p>
      @param db represented as com.intersys.objects.Database
      @throws com.intersys.objects.CacheException if any error occured while running the method.
-     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koorong.Book#Test"> Method Test</A>
+     @see <a href = "http://manzi.local:57121/csp/documatic/%25CSP.Documatic.cls?APP=1&PAGE=CLASS&LIBRARY=USER&CLASSNAME=koo.Book#Test"> Method Test</A>
     */
     public static void Test (com.intersys.objects.Database db) throws com.intersys.objects.CacheException {
         com.intersys.cache.Dataholder[] args = new com.intersys.cache.Dataholder[0];
@@ -1357,7 +1358,7 @@ after the index filing is completed.
      @throws com.intersys.objects.CacheException if any error occured while running the method.
     */
     public static com.intersys.objects.CacheQuery query_Extent (com.intersys.objects.Database db) throws com.intersys.objects.CacheException {
-        return new com.intersys.objects.CacheQuery(db, "koorong.Book_Extent", 0, 0);
+        return new com.intersys.objects.CacheQuery(db, "koo.Book_Extent", 0, 0);
     }
 
     public static Object addToBatchInsert (Object batch, java.sql.Connection con) throws java.sql.SQLException {
@@ -1381,7 +1382,7 @@ after the index filing is completed.
     }
     
     public static java.util.List executeBatchInsert (java.sql.Connection con, Object batch, int nolock) throws java.sql.SQLException {
-        Object ids = com.intersys.jdbc.QuickStatement.Batch.execute ("koorong", "Book", 4, batch, con, nolock);
+        Object ids = com.intersys.jdbc.QuickStatement.Batch.execute ("koo", "Book", 4, batch, con, nolock);
         return new com.intersys.objects.SList (ids);
         }
 }
